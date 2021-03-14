@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d36f514c-4e2e-4d69-9d2e-eb57143c2f98" name="Default Changelist" comment="" />
+    <list default="true" id="d36f514c-4e2e-4d69-9d2e-eb57143c2f98" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/resources/js/components/Example.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Example.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/HomePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/HomePage.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +15,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -119,6 +125,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1phWiPnRFSZW9sE1GaQIliDqq7I" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -149,7 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615635929673</updated>
       <workItem from="1615635936862" duration="1583000" />
-      <workItem from="1615688204821" duration="16582000" />
+      <workItem from="1615688204821" duration="16899000" />
     </task>
     <servers />
   </component>

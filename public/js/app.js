@@ -38393,7 +38393,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", [
     _c("div", [
-      _c("h1", [_vm._v(" ví dụ building 2 chiều, lien ket 2 chieu")]),
+      _c("h1", [_vm._v("1. ví dụ building 2 chiều, lien ket 2 chieu")]),
       _vm._v(" "),
       _c("input", {
         directives: [
@@ -38468,7 +38468,7 @@ var render = function() {
             }
           ]
         },
-        [_vm._v("hide and show")]
+        [_vm._v("2. hide and show")]
       ),
       _vm._v(" "),
       _c(
@@ -38486,7 +38486,7 @@ var render = function() {
     _vm._v(" "),
     _c("div", [
       _c("h1", { attrs: { id: _vm.id } }, [
-        _vm._v("Có id là id-exc vì được building")
+        _vm._v("3. Có id là id-exc vì được building")
       ]),
       _vm._v(" "),
       _c("input", { attrs: { type: "text", disabled: _vm.inputDisabled } }),
@@ -38506,7 +38506,7 @@ var render = function() {
     _vm._v(" "),
     _c("div", [
       _c("h1", { class: { daChon: _vm.selected } }, [
-        _vm._v("style and class building")
+        _vm._v("4. style and class building")
       ]),
       _vm._v(" "),
       _c(
@@ -38523,7 +38523,7 @@ var render = function() {
     ]),
     _vm._v(" "),
     _c("div", [
-      _c("h1", [_vm._v("lien ket element voi property")]),
+      _c("h1", [_vm._v("5. len ket element voi property")]),
       _vm._v(" "),
       _c("input", {
         directives: [
@@ -38590,7 +38590,7 @@ var render = function() {
     ]),
     _vm._v(" "),
     _c("div", [
-      _c("h1", [_vm._v("event handling")]),
+      _c("h1", [_vm._v("6. event handling")]),
       _vm._v(" "),
       _c("input", {
         directives: [
@@ -38640,7 +38640,7 @@ var render = function() {
     _vm._v(" "),
     _c("div", [
       _c("h1", [
-        _vm._v("prevent: huy bo submit (huy bo event mac dinh cua element)")
+        _vm._v("7. prevent: huy bo submit (huy bo event mac dinh cua element)")
       ]),
       _vm._v(" "),
       _c("form", { attrs: { action: "/abc" } }, [
@@ -38682,7 +38682,7 @@ var render = function() {
     ]),
     _vm._v(" "),
     _c("div", [
-      _c("h1", [_vm._v("ánh xạ đến chính element")]),
+      _c("h1", [_vm._v("8. ánh xạ đến chính element")]),
       _vm._v(" "),
       _c("input", {
         directives: [
@@ -38726,7 +38726,7 @@ var render = function() {
     ]),
     _vm._v(" "),
     _c("div", [
-      _c("h1", [_vm._v("Share prop parent to child")]),
+      _c("h1", [_vm._v("10. Share prop parent to child")]),
       _vm._v(" "),
       _c(
         "ol",
@@ -38741,7 +38741,7 @@ var render = function() {
     _vm._v(" "),
     _c("div", [
       _c("button", { on: { click: _vm.updateMessage } }, [
-        _vm._v("CLICK TO :share prop parent to child")
+        _vm._v("11. CLICK TO :share prop parent to child")
       ])
     ])
   ])
@@ -38779,7 +38779,7 @@ var render = function() {
       }),
       _vm._v(" "),
       _c("h1", [
-        _vm._v("Share Props Child To Parent : " + _vm._s(_vm.childData))
+        _vm._v("11. Share Props Child To Parent : " + _vm._s(_vm.childData))
       ])
     ],
     1

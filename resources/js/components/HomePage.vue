@@ -3,7 +3,7 @@
         <h2>{{name}}</h2>
         <Example v-bind:myData="myData" @inputData="updateMessage"/>
 
-        <h1>Share Props Child To Parent : {{childData}}</h1>
+        <h1>11. Share Props Child To Parent : {{childData}}</h1>
     </div>
 </template>
 

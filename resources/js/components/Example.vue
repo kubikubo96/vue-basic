@@ -1,44 +1,44 @@
 <template>
     <div>
         <div>
-            <h1> ví dụ building 2 chiều, lien ket 2 chieu</h1>
+            <h1>1. ví dụ building 2 chiều, lien ket 2 chieu</h1>
             <input type="text" v-model="name">
             <input type="checkbox" v-model="accept"> Tôi đồng ý với các điều khoản trên
             <h3>{{name}}</h3>
         </div>
 
         <div>
-            <h1 v-show="isShow">hide and show</h1>
+            <h1 v-show="isShow">2. hide and show</h1>
             <button @click="isShow = !isShow">Ẩn/Hiện</button>
         </div>
 
         <div>
-            <h1 v-bind:id="id">Có id là id-exc vì được building</h1>
+            <h1 v-bind:id="id">3. Có id là id-exc vì được building</h1>
             <input type="text" :disabled="inputDisabled">
             <button @click="inputDisabled = !inputDisabled">Mở/Khóa</button>
         </div>
 
         <div>
-            <h1 :class="{daChon: selected}">style and class building</h1>
+            <h1 :class="{daChon: selected}">4. style and class building</h1>
             <button @click="selected = !selected">Đổi màu</button>
         </div>
 
         <div>
-            <h1>lien ket element voi property</h1>
+            <h1>5. len ket element voi property</h1>
             <input type="text" v-model="channelName[0]">
             <input type="text" v-model="channelName[1]">
             <input type="text" v-model="channel.name">
         </div>
 
         <div>
-            <h1>event handling</h1>
+            <h1>6. event handling</h1>
             <input type="text" v-model="channel.name">
             <button v-on:click="channel.name = 'handle click'">Click</button>
             <button @:click="channel.name = 'handle click'">Click</button> <!--viet tat-->
         </div>
 
         <div>
-            <h1>prevent: huy bo submit (huy bo event mac dinh cua element)</h1>
+            <h1>7. prevent: huy bo submit (huy bo event mac dinh cua element)</h1>
             <form action="/abc">
                 <input type="text" v-model="channel.name">
                 <button type="submit" v-on:click.prevent="channel.name = 'handle click'">Click</button>
@@ -46,7 +46,7 @@
         </div>
 
         <div>
-            <h1>ánh xạ đến chính element</h1>
+            <h1>8. ánh xạ đến chính element</h1>
             <input ref="channelNameRes" type="text" v-model="channel.name">
         </div>
 
@@ -65,7 +65,7 @@
 
         <div>
             <!--            share prop parent to child-->
-            <h1>Share prop parent to child</h1>
+            <h1>10. Share prop parent to child</h1>
             <ol>
                 <li v-for="item in myData">
                     {{ item.text }}
@@ -74,7 +74,7 @@
         </div>
 
         <div>
-            <button v-on:click="updateMessage">CLICK TO :share prop parent to child</button>
+            <button v-on:click="updateMessage">11. CLICK TO :share prop parent to child</button>
         </div>
     </div>
 </template>
