@@ -1989,34 +1989,43 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: 'Example',
+  name: "Example",
   data: function data() {
     return {
-      name: 'This IS All Example',
+      name: "This IS All Example",
       accept: true,
       isShow: true,
-      id: 'id-exc',
+      id: "id-exc",
       inputDisabled: false,
       selected: true,
-      channelName: ['kubi kubo', 'tiennt'],
+      channelName: ["kubi kubo", "tiennt"],
       channel: {
-        name: 'abc'
+        name: "abc"
       },
       tasks: ["a", "b", "c"],
-      messageReverse: 'message Reverse!',
-      childMessage: 'this is child message'
+      messageReverse: "message Reverse!",
+      childMessage: "this is child message"
     };
   },
   methods: {
     reverseMessage: function reverseMessage() {
-      this.messageReverse = this.messageReverse.split('').reverse().join('');
+      this.messageReverse = this.messageReverse.split("").reverse().join("");
     },
     updateMessage: function updateMessage() {
-      this.$emit('inputData', this.childMessage);
+      this.$emit("inputData", this.childMessage);
     }
   },
-  props: ['myData']
+  props: ["myData"]
 });
 
 /***/ }),
@@ -2042,22 +2051,22 @@ __webpack_require__.r(__webpack_exports__);
 //
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: 'HomePage',
+  name: "HomePage",
   components: {
     Example: _Example__WEBPACK_IMPORTED_MODULE_0__["default"]
   },
   data: function data() {
     return {
-      name: 'This is HomePage',
+      name: "This is HomePage",
       myData: [{
         id: 0,
-        text: 'Cà pháo'
+        text: "Cà pháo"
       }, {
         id: 1,
-        text: 'Mắm tôm'
+        text: "Mắm tôm"
       }, {
         id: 2,
-        text: 'Miễn ăn được là được'
+        text: "Miễn ăn được là được"
       }],
       childData: "origin message"
     };
@@ -6525,7 +6534,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.daChon {\n    color: red;\n}\n", ""]);
+exports.push([module.i, "\n.daChon {\n  color: red;\n}\n", ""]);
 
 // exports
 
@@ -38451,7 +38460,7 @@ var render = function() {
           }
         }
       }),
-      _vm._v(" Tôi đồng ý với các điều khoản trên\n        "),
+      _vm._v(" Tôi đồng ý với các điều khoản\n    trên\n    "),
       _c("h3", [_vm._v(_vm._s(_vm.name))])
     ]),
     _vm._v(" "),
@@ -38676,7 +38685,7 @@ var render = function() {
               }
             }
           },
-          [_vm._v("Click")]
+          [_vm._v("\n        Click\n      ")]
         )
       ])
     ]),
@@ -38711,7 +38720,7 @@ var render = function() {
       "div",
       _vm._l(_vm.tasks, function(index, task) {
         return _c("div", { key: index }, [
-          _vm._v("\n            " + _vm._s(task) + "\n        ")
+          _vm._v("\n      " + _vm._s(task) + "\n    ")
         ])
       }),
       0
@@ -38730,9 +38739,9 @@ var render = function() {
       _vm._v(" "),
       _c(
         "ol",
-        _vm._l(_vm.myData, function(item) {
+        _vm._l(_vm.myData, function(item, index) {
           return _c("li", [
-            _vm._v("\n                " + _vm._s(item.text) + "\n            ")
+            _vm._v("\n        " + _vm._s(item.text) + "\n      ")
           ])
         }),
         0
@@ -38741,7 +38750,7 @@ var render = function() {
     _vm._v(" "),
     _c("div", [
       _c("button", { on: { click: _vm.updateMessage } }, [
-        _vm._v("11. CLICK TO :share prop parent to child")
+        _vm._v("\n      11. CLICK TO :share prop parent to child\n    ")
       ])
     ])
   ])

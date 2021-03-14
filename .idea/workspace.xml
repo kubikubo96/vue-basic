@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d36f514c-4e2e-4d69-9d2e-eb57143c2f98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Example.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Example.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/HomePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/HomePage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615635929673</updated>
       <workItem from="1615635936862" duration="1583000" />
-      <workItem from="1615688204821" duration="16899000" />
+      <workItem from="1615688204821" duration="17628000" />
     </task>
     <servers />
   </component>
