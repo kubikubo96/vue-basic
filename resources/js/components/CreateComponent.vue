@@ -1,4 +1,3 @@
-
 // CreatePost.vue
 
 <template>
@@ -9,7 +8,7 @@
         <div class="col-md-6">
           <div class="form-group">
             <label>Post Title:</label>
-            <input type="text" class="form-control" v-model="post.title" />
+            <input type="text" class="form-control" v-model="post.title"/>
           </div>
         </div>
       </div>
@@ -25,7 +24,7 @@
           </div>
         </div>
       </div>
-      <br />
+      <br/>
       <div class="form-group">
         <button class="btn btn-primary">Create</button>
       </div>
@@ -34,19 +33,19 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      post: {},
-    };
-  },
-  methods: {
-    addPost() {
-      let uri = "http://127.0.0.1:8000/api/post/create";
-      this.axios.post(uri, this.post).then((response) => {
-        this.$router.push({ name: "posts" });
-      });
+  export default {
+    data() {
+      return {
+        post: {},
+      };
     },
-  },
-};
+    methods: {
+      addPost() {
+        let uri = "http://127.0.0.1:8000/api/post/create";
+        this.axios.post(uri, this.post).then((response) => {
+          this.$router.push({name: "posts"});
+        });
+      },
+    },
+  };
 </script>

@@ -1941,6 +1941,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -1954,7 +1958,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
 //
 //
 //
@@ -2020,6 +2023,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
 //
 //
 //
@@ -2121,6 +2125,11 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
 //
 //
 //
@@ -38553,9 +38562,12 @@ var render = function() {
           ])
         ]
       ),
+      _vm._v(" "),
       _c("br"),
       _vm._v(" "),
-      _c("transition", { attrs: { name: "fade" } }, [_c("router-view")], 1)
+      _c("transition", { attrs: { name: "fade" } }, [_c("router-view")], 1),
+      _vm._v(" "),
+      _c("div")
     ],
     1
   )
@@ -38767,6 +38779,7 @@ var render = function() {
             ])
           ])
         ]),
+        _vm._v(" "),
         _c("br"),
         _vm._v(" "),
         _vm._m(0)
@@ -38818,9 +38831,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "card-header" }, [_vm._v("Home Component")]),
           _vm._v(" "),
           _c("div", { staticClass: "card-body" }, [
-            _vm._v(
-              "\n                I'm the Home Component component.\n            "
-            )
+            _vm._v("\n        I'm the Home Component component.\n      ")
           ])
         ])
       ])
@@ -38870,6 +38881,7 @@ var render = function() {
         1
       )
     ]),
+    _vm._v(" "),
     _c("br"),
     _vm._v(" "),
     _c("table", { staticClass: "table table-hover" }, [
@@ -54370,15 +54382,15 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 
+
+
+
+
+
+
+
 Vue.use(vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]);
-
-
-
 Vue.use(vue_axios__WEBPACK_IMPORTED_MODULE_1___default.a, axios__WEBPACK_IMPORTED_MODULE_2___default.a);
-
-
-
-
 var routes = [{
   name: 'home',
   path: '/',

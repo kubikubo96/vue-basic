@@ -1,4 +1,3 @@
-
 // App.vue
 
 <template>
@@ -15,24 +14,28 @@
           <router-link to="/posts" class="nav-link">Posts</router-link>
         </li>
       </ul>
-    </nav><br />
+    </nav>
+    <br/>
     <transition name="fade">
       <router-view></router-view>
     </transition>
+    <div>
+
+    </div>
   </div>
 </template>
 
 <style>
-    .fade-enter-active, .fade-leave-active {
-      transition: opacity .5s
-    }
-    .fade-enter, .fade-leave-active {
-      opacity: 0
-    }
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .5s
+  }
+
+  .fade-enter, .fade-leave-active {
+    opacity: 0
+  }
 </style>
 
 <script>
 
-    export default{
-    }
+  export default {}
 </script>
