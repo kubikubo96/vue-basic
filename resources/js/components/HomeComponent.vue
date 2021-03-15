@@ -13,15 +13,25 @@
     </div>
     <div class="col-md-12">
       <h3>Sử dụng Vuex - Store quản lý state</h3>
-      <h6>Số Tiền bạn có: 0</h6>
+      <h6>Họ Và Tên: {{getUsername}}</h6>
+      <h6>Tuổi: {{age}}</h6>
     </div>
   </div>
 </template>
 
 <script>
+  import {mapGetters} from 'vuex'
+
   export default {
-    mounted() {
-      console.log('Component mounted.')
+    name: "HomeComponent",
+    computed: {
+      username() {
+        return this.$store.state.username
+      },
+      ...mapGetters(['getUsername', 'getAge']),
+      age() {
+        return this.$store.state.age
+      }
     }
   }
 </script>

@@ -7,6 +7,8 @@ window.Vue = require('vue');
 import VueRouter from 'vue-router';
 import VueAxios from 'vue-axios';
 import axios from 'axios';
+import Vuex from 'vuex';
+import store from './stores/store'
 
 import App from './App.vue';
 import HomeComponent from './components/HomeComponent.vue';
@@ -17,6 +19,8 @@ import EditComponent from './components/EditComponent.vue';
 Vue.use(VueRouter);
 
 Vue.use(VueAxios, axios);
+
+Vue.use(Vuex);
 
 const routes = [
   {
@@ -42,4 +46,5 @@ const routes = [
 ];
 
 const router = new VueRouter({mode: 'history', routes: routes});
-const app = new Vue(Vue.util.extend({router}, App)).$mount('#app');
+const app = new Vue(Vue.util.extend({router, store}, App)).$mount('#app');
+
