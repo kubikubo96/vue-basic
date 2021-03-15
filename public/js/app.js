@@ -2108,6 +2108,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -38834,6 +38838,12 @@ var staticRenderFns = [
             _vm._v("\n        I'm the Home Component component.\n      ")
           ])
         ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("h3", [_vm._v("Sử dụng Vuex - Store quản lý state")]),
+        _vm._v(" "),
+        _c("h6", [_vm._v("Số Tiền bạn có: 0")])
       ])
     ])
   }

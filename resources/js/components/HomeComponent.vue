@@ -11,6 +11,10 @@
         </div>
       </div>
     </div>
+    <div class="col-md-12">
+      <h3>Sử dụng Vuex - Store quản lý state</h3>
+      <h6>Số Tiền bạn có: 0</h6>
+    </div>
   </div>
 </template>
 
