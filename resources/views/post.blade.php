@@ -11,9 +11,12 @@
     </head>
     <body>
         <header class="w-auto text-center text-primary bg-light"><h1>Learn Vue Js</h1></header>
-        <div id="app">
-          <example-component></example-component>
-        </div>
+        <content>
+            <div id="app">
+                <example-component></example-component>
+            </div>
+        </content>
+        <footer class="w-auto text-center text-primary bg-light mt-5">@copyright KubiKubo</footer>
         <script src="{{ mix('js/app.js') }}" type="text/javascript"></script>
     </body>
 </html>
