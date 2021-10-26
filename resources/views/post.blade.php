@@ -10,6 +10,7 @@
         <meta name="csrf-token" value="{{ csrf_token() }}" />
     </head>
     <body>
+        <header class="w-auto text-center text-primary bg-light"><h1>Learn Vue Js</h1></header>
         <div id="app">
           <example-component></example-component>
         </div>
